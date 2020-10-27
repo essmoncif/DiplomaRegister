@@ -81,6 +81,7 @@ contract("Register", (accounts) => {
             assert.fail(error);
         }
 
+        
         try {
             const signedDiploma = await registerInstance.getDiplomaOfStudent.call(student, diploma_address);
             assert.equal(signedDiploma._signed.diploma, diploma_address);
