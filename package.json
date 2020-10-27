@@ -7,11 +7,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "truffle test",
+    "migrate": "truffle migrate --reset"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Truffle", "smart contract", "Ethereum", "solidity"],
+  "author": "Moncif Essaoudi",
+  "license": "MIT",
   "dependencies": {
     "web3": "^1.3.0"
   }
